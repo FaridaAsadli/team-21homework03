@@ -1,0 +1,176 @@
+:root {
+    --ada-blue: #423723;
+    --ada-red: #ae485e;
+}
+
+body {
+    background-color: var(--ada-blue);
+}
+a{
+    color: #b67b7b;
+    font-size: 1.2em;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: space-around;
+}
+ul{
+    color: #b67b7b;
+    font-size: 1.5em;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+h3 {
+    color: #b67b7b;
+    font-size: 3em;
+    width: 100%;
+    font-family: Georgia;
+    text-align: center;
+  }
+
+  p {
+color:rgb(192, 162, 123);
+font-size: 0.6cm;
+font-family:'Times New Roman', Times, serif;
+text-align: left;
+  }
+
+h2 {
+    color: #beac91;
+    font-size: 2em;
+    width: 100%;
+    font-family: Georgia;
+    text-align: center;
+  }
+
+  h4 {
+    color: rgb(223, 132, 132);
+    font-size: 0.8cm;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+  }
+.hour-of-code-gallery {
+  width: 80%;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+.hour-of-code-image {
+  width: 48%;
+  margin-bottom: 10px;
+  height: auto;
+}
+.hour-of-code-photo {
+  max-width: 100%;
+  height: auto;
+}
+
+.hourofcode {
+text-align: center;
+}
+
+.team_member{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.team_member_a{
+  width: 350px;
+  height: 600px;
+  border: 1px solid red;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.member_name{
+  text-align: center;
+}
+.member_haqqinda{
+  text-align: center;
+}
+.member_img{
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.team{
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.team_21{
+  position: relative;
+  top: 100px;
+}
+
+
+h1{
+  text-align: center;
+}
+
+ 
+
+.div{
+  background-color:antiquewhite;
+  height: 80px;
+  width: 100px;
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  padding: 0 50 px 0 50 px !important;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.navbar ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+ .li{
+  width: 20%;
+  height: 70px;
+  background-color: bisque;
+  text-align: center;
+  padding-top: 30px;
+  justify-content: space-around;
+ }
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+}
+
+footer{
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+  background-color: antiquewhite;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 400px;
+}
+
+.adalogo{
+  width: 160px;
+  height: 100px;
+  object-fit: contain;
+}
